@@ -17,6 +17,7 @@
     "workbench.colorTheme": "One Dark Pro",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.startupEditor": "none",
+
     // Extension settings.
     "better-comments.tags": [
         {
