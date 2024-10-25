@@ -71,7 +71,6 @@
     "codeium.enableConfig": {
         "*": false
     },
-    "codeium.enableCommandSideHintEducation": false,
     "python.createEnvironment.trigger": "off",
     "vim.handleKeys": {
         "<C-p>": false,
@@ -80,6 +79,8 @@
         "<C-t>": false,
         "<C-g>": false,
         "<C-w>": false,
+        "<C-i>": false,
     },
     "vim.useSystemClipboard": true,
+    "codeium.enableCommandSideHintEducation": false,
 }
