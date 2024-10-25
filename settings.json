@@ -1,0 +1,84 @@
+{
+    // VSCode settings.
+    "breadcrumbs.enabled": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.insertSpaces": true,
+    "editor.lineNumbers": "relative",
+    "editor.minimap.enabled": false,
+    "editor.rulers": [
+        80,
+        100
+    ],
+    "editor.smoothScrolling": true,
+    "editor.wordWrap": "on",
+    "security.workspace.trust.untrustedFiles": "open",
+    "telemetry.telemetryLevel": "off",
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "none",
+    // Extension settings.
+    "better-comments.tags": [
+        {
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "~",
+            "color": "#474747",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "todo",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "*",
+            "color": "#98C379",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        }
+    ],
+    "code-runner.enableAppInsights": false,
+    "code-runner.runInTerminal": true,
+    "codeium.enableConfig": {
+        "*": false
+    },
+    "codeium.enableCommandSideHintEducation": false,
+    "python.createEnvironment.trigger": "off",
+    "vim.handleKeys": {
+        "<C-p>": false,
+        "<C-f>": false,
+        "<C-b>": false,
+        "<C-t>": false,
+        "<C-g>": false,
+        "<C-w>": false,
+    },
+    "vim.useSystemClipboard": true,
+}
