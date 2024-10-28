@@ -2,6 +2,7 @@
     // VSCode settings.
     "breadcrumbs.enabled": false,
     "editor.acceptSuggestionOnEnter": "off",
+    "editor.fontFamily": "\"Fira Code\", monospace",
     "editor.insertSpaces": true,
     "editor.lineNumbers": "relative",
     "editor.minimap.enabled": false,
