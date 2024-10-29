@@ -1,3 +1,4 @@
+// Place your key bindings in this file to override the defaults
 [
     {
         "key": "ctrl+tab",
@@ -70,7 +71,7 @@
         "when": "terminalFocus"
     },
     {
-        "key": "ctrl+shift+f",
+        "key": "ctrl+f",
         "command": "actions.find",
         "when": "editorFocus || editorIsOpen"
     },
@@ -80,7 +81,7 @@
         "when": "editorFocus || editorIsOpen"
     },
     {
-        "key": "ctrl+f",
+        "key": "ctrl+shift+f",
         "command": "workbench.action.findInFiles"
     },
     {
@@ -157,5 +158,22 @@
         "key": "ctrl+shift+n",
         "command": "explorer.newFolder",
         "when": "filesExplorerFocus"
+    },
+    {
+        "key": "ctrl+z",
+        "command": "-undo"
+    },
+    {
+        "key": "ctrl+u",
+        "command": "-cursorUndo",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+y",
+        "command": "-redo"
+    },
+    {
+        "key": "ctrl+shift+z",
+        "command": "-redo"
     }
 ]
