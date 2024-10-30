@@ -19,6 +19,7 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
   "workbench.sideBar.location": "right",
+  
   // Language-specific settings.
   "[html]": {
     "editor.tabSize": 2
@@ -44,6 +45,7 @@
   "[jsonc]": {
     "editor.tabSize": 2
   },
+  
   // Extension settings.
   "better-comments.tags": [
     {
