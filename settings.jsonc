@@ -4,7 +4,6 @@
   "editor.acceptSuggestionOnEnter": "off",
   "editor.fontFamily": "\"Fira Code\", monospace",
   "editor.insertSpaces": true,
-  "editor.lineNumbers": "relative",
   "editor.minimap.enabled": false,
   "editor.rulers": [
     80,
@@ -18,7 +17,6 @@
   "workbench.colorTheme": "One Dark Pro",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
-  "workbench.sideBar.location": "right",
   
   // Language-specific settings.
   "[html]": {
@@ -46,7 +44,7 @@
     "editor.tabSize": 2
   },
   "python.createEnvironment.trigger": "off",
-  
+
   // Extension settings.
   "better-comments.tags": [
     {
