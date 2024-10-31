@@ -45,6 +45,7 @@
   "[jsonc]": {
     "editor.tabSize": 2
   },
+  "python.createEnvironment.trigger": "off",
   
   // Extension settings.
   "better-comments.tags": [
@@ -99,16 +100,5 @@
   "codeium.enableConfig": {
     "*": false
   },
-  "python.createEnvironment.trigger": "off",
-  "vim.handleKeys": {
-    "<C-p>": false,
-    "<C-f>": false,
-    "<C-b>": false,
-    "<C-t>": false,
-    "<C-g>": false,
-    "<C-w>": false,
-    "<C-i>": false,
-  },
-  "vim.useSystemClipboard": true,
   "codeium.enableCommandSideHintEducation": false,
 }
