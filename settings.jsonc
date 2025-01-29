@@ -1,8 +1,11 @@
 {
   // VSCode settings.
   "breadcrumbs.enabled": false,
+  "chat.commandCenter.enabled": false,
   "editor.acceptSuggestionOnEnter": "off",
   "editor.fontFamily": "\"Fira Code\", monospace",
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": false,
   "editor.insertSpaces": true,
   "editor.minimap.enabled": false,
   "editor.rulers": [
@@ -11,6 +14,7 @@
   ],
   "editor.smoothScrolling": true,
   "editor.wordWrap": "on",
+  "extensions.ignoreRecommendations": true,
   "security.workspace.trust.untrustedFiles": "open",
   "telemetry.telemetryLevel": "off",
   "window.zoomLevel": 1,
@@ -93,6 +97,7 @@
       "italic": false
     }
   ],
+  "better-yaml.directives": true,
   "code-runner.enableAppInsights": false,
   "code-runner.runInTerminal": true,
   "codeium.enableConfig": {
