@@ -19,6 +19,7 @@
   "telemetry.telemetryLevel": "off",
   "window.zoomLevel": 1,
   "workbench.colorTheme": "One Dark Pro",
+  "workbench.editor.enablePreview": false,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
   
@@ -99,6 +100,7 @@
   ],
   "better-yaml.directives": true,
   "code-runner.enableAppInsights": false,
+  "code-runner.ignoreSelection": true,
   "code-runner.runInTerminal": true,
   "codeium.enableConfig": {
     "*": false
