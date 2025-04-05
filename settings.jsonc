@@ -4,6 +4,9 @@
   "chat.commandCenter.enabled": false,
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.acceptSuggestionOnEnter": "off",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "\"Fira Code\", monospace",
   "editor.formatOnPaste": false,
