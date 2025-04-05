@@ -4,22 +4,20 @@
   "chat.commandCenter.enabled": false,
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.acceptSuggestionOnEnter": "off",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "\"Fira Code\", monospace",
   "editor.formatOnPaste": false,
   "editor.formatOnSave": false,
   "editor.insertSpaces": true,
   "editor.minimap.enabled": false,
-  "editor.rulers": [
-    80,
-    100
-  ],
+  "editor.rulers": [80, 100],
   "editor.smoothScrolling": true,
   "editor.wordWrap": "on",
   "extensions.ignoreRecommendations": true,
   "security.workspace.trust.untrustedFiles": "open",
   "telemetry.telemetryLevel": "off",
   "window.zoomLevel": 1,
-  "workbench.colorTheme": "Visual Studio Light",
+  "workbench.colorTheme": "One Dark Pro",
   "workbench.editor.enablePreview": false,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
@@ -108,5 +106,6 @@
     "*": false
   },
   "codeium.enableCommandSideHintEducation": false,
-  "python.createEnvironment.trigger": "off",
+  "prettier.singleQuote": true,
+  "python.createEnvironment.trigger": "off"
 }
