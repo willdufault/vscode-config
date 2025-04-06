@@ -5,7 +5,7 @@
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.acceptSuggestionOnEnter": "off",
   "editor.codeActionsOnSave": {
-    "source.organizeImports": "explicit"
+    "source.sortImports": "explicit"
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "\"Fira Code\", monospace",
