@@ -20,7 +20,7 @@
   "security.workspace.trust.untrustedFiles": "open",
   "telemetry.telemetryLevel": "off",
   "window.zoomLevel": 1,
-  "workbench.colorTheme": "One Dark Pro",
+  "workbench.colorTheme": "Visual Studio Light",
   "workbench.editor.enablePreview": false,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
@@ -49,6 +49,9 @@
   },
   "[jsonc]": {
     "editor.tabSize": 2
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
   },
 
   // Extension settings.
@@ -99,7 +102,6 @@
       "italic": false
     }
   ],
-  "better-yaml.directives": true,
   "code-runner.enableAppInsights": false,
   "code-runner.fileDirectoryAsCwd": true,
   "code-runner.ignoreSelection": true,
@@ -111,5 +113,5 @@
   "codeium.enableCommandSideHintEducation": false,
   "prettier.semi": false,
   "prettier.singleQuote": true,
-  "python.createEnvironment.trigger": "off"
+  "python.createEnvironment.trigger": "off",
 }
