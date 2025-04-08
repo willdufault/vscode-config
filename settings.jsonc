@@ -17,10 +17,13 @@
   "editor.smoothScrolling": true,
   "editor.wordWrap": "on",
   "extensions.ignoreRecommendations": true,
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
   "security.workspace.trust.untrustedFiles": "open",
   "telemetry.telemetryLevel": "off",
   "window.zoomLevel": 1,
-  "workbench.colorTheme": "Visual Studio Light",
+  "workbench.colorTheme": "One Dark Pro",
   "workbench.editor.enablePreview": false,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
@@ -113,5 +116,5 @@
   "codeium.enableCommandSideHintEducation": false,
   "prettier.semi": false,
   "prettier.singleQuote": true,
-  "python.createEnvironment.trigger": "off",
+  "python.createEnvironment.trigger": "off"
 }
