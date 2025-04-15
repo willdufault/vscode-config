@@ -1,19 +1,21 @@
 [
-  { "key": "ctrl+g",
-    "command": "workbench.action.focusFirstEditorGroup" },
   {
-    "key": "ctrl+k ctrl+shift+s",
-    "command": "-workbench.action.files.saveWithoutFormatting"
+    "key": "ctrl+g",
+    "command": "workbench.action.focusFirstEditorGroup"
   },
-  { "key": "ctrl+m",
-    "command": "-editor.action.toggleTabFocusMode" },
+  {
+    "key": "ctrl+m",
+    "command": "-editor.action.toggleTabFocusMode"
+  },
   {
     "key": "ctrl+m",
     "command": "workbench.action.terminal.kill",
     "when": "terminalFocus"
   },
-  { "key": "ctrl+shift+\\",
-    "command": "workbench.action.splitEditorDown" },
+  {
+    "key": "ctrl+shift+\\",
+    "command": "workbench.action.splitEditorDown"
+  },
   {
     "key": "ctrl+shift+m",
     "command": "-workbench.actions.view.problems",
@@ -24,19 +26,15 @@
     "command": "workbench.action.terminal.killAll",
     "when": "terminalFocus"
   },
-  { "key": "ctrl+shift+s",
-    "command": "-workbench.action.files.saveAs" },
-  {
-    "key": "ctrl+shift+s",
-    "command": "workbench.action.files.saveWithoutFormatting"
-  },
   {
     "key": "ctrl+shift+t",
     "command": "workbench.action.terminal.new",
     "when": "terminalFocus"
   },
-  { "key": "ctrl+shift+tab",
-    "command": "workbench.action.previousEditor" },
+  {
+    "key": "ctrl+shift+tab",
+    "command": "workbench.action.previousEditor"
+  },
   {
     "key": "ctrl+shift+tab",
     "command": "workbench.action.terminal.focusPrevious",
@@ -47,8 +45,10 @@
     "command": "workbench.action.terminal.toggleTerminal",
     "when": "terminal.active"
   },
-  { "key": "ctrl+tab",
-    "command": "workbench.action.nextEditor" },
+  {
+    "key": "ctrl+tab",
+    "command": "workbench.action.nextEditor"
+  },
   {
     "key": "ctrl+tab",
     "command": "workbench.action.terminal.focusNext",
@@ -63,5 +63,17 @@
     "key": "shift+enter",
     "command": "-python.execSelectionInTerminal",
     "when": "editorTextFocus && !findInputFocussed && !isCompositeNotebook && !jupyter.ownsSelection && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'python'"
+  },
+  {
+    "key": "ctrl+k ctrl+shift+s",
+    "command": "-workbench.action.files.saveWithoutFormatting"
+  },
+  {
+    "key": "ctrl+shift+s",
+    "command": "workbench.action.files.saveWithoutFormatting"
+  },
+  {
+    "key": "ctrl+shift+s",
+    "command": "-workbench.action.files.saveAs"
   }
 ]
