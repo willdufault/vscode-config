@@ -116,6 +116,7 @@
     "*": false
   },
   "codeium.enableCommandSideHintEducation": false,
+  "git.openRepositoryInParentFolders": "never",
   "isort.args": ["--profile", "black"],
   "prettier.semi": false,
   "prettier.singleQuote": true,
